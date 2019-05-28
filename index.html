@@ -55,9 +55,7 @@
   };
   // Initialize Firebase
   firebase.initializeApp(firebaseConfig);
-</script>
 
-<script type="text/javascript">
 document.getElementById('registrar').addEventListener('click', handleSignUp, false);
  
 function handleSignUp() {
@@ -99,8 +97,8 @@ function handleSignUp() {
   <label for="inputPassword" class="sr-only">Contraseña</label>
   <input type="password" id="password" class="form-control" placeholder="Password" required>
 
-  <button class="btn btn-lg btn-primary btn-block" id="registrar" name="registrar">Registrar</button>
-  <button class="btn btn-lg btn-primary btn-block" name="recuperarpass">Recuperar contraseña</button>
+  <button class="btn btn-lg btn-primary btn-block" id="registrar">Registrar</button>
+  <button class="btn btn-lg btn-primary btn-block" id="recuperarpass">Recuperar contraseña</button>
   <p class="mt-5 mb-3 text-muted">&copy; 2017-2019</p>
 </form>
 </body>
